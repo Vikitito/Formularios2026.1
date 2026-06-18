@@ -138,7 +138,7 @@
             <input type="date" name="aniversario" id="aniversario   ">
          </div>
 
-         <!-- Input para Uploud de arquivos  -->
+        <!-- Input para Uploud de arquivos  -->
           <div>
             <label for="imagem">Carregue aqui a sua imagem de perfil</label>
             <input type="file" name="imagem" id="imagem">
@@ -150,17 +150,43 @@
             <input type="number" name="salario" id="salario">
          </div>
 
-         <!-- Inputpara emails -->
+        <!-- Input para emails -->
           <div>
             <label for="email">Qual é o seu email?</label>
             <input type="email">
           </div>
 
-          <!-- Atributo value: Um valor já preenchido -->
+        <!-- Atributo value: Um valor já preenchido -->
            <div>
             <label for="nome">Nome do individuo</label>
             <input type="text" name="nome" id="nome" value="Equipe 01 - ">
            </div>
+
+        <!-- Atributo Disable: Desabilita o campo para uso -->
+         <div>
+            <p>Tente mudar o texto</p>
+            <input type="text" name="name" id="name" value="Não precisa preencher" disabled>
+         </div>
+
+        <!-- Atributo placeholder: -->
+         <div>
+            <label for="nome">Nome do aluno</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite aqui o nome completo do aluno">
+         </div>
+
+        <!-- Atributo Required: É um tipo de validação de campo HTML  -->
+         <div>
+            <label for="aniversario">(*) Ano de nascimento</label>
+            <input type="date" name="aniversario" id="aniversario" required>
+        </div>
+
+        <!-- Botão de envio -->
+         <div>
+            <input type="submit" value="Enviar formulário">
+         </div>
+        
+        <!-- Botão do reset -->
+         <input type="reset" value="Limpar formulário">
      </form>
 
 </body>
